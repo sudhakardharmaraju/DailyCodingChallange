@@ -1,0 +1,28 @@
+package day3;
+
+public class Answer3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Node node = new Node("Root", new Node('left', new Node('left.left'), null), Node('right'))
+
+	}
+
+}
+
+class Node{
+	String value;
+	Node left;
+	Node right;
+	
+	Node(String value,Node left,Node right){
+		this.value = value;
+		this.left = left;
+		this.right = right;
+	}
+	
+	Node(String value){
+		this.value = value;
+	}
+}
