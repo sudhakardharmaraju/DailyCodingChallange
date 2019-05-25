@@ -1,0 +1,10 @@
+Use Hashing
+
+Method works in O(n) time
+
+Given array A[] and a number x
+
+1) Initialize an empty hash table s.
+2) Do following for each element A[i] in A[]
+   (a)    If s[x - A[i]] is set then print the pair (A[i], x - A[i])
+   (b)    Insert A[i] into s.
