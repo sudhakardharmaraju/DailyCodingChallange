@@ -1,0 +1,28 @@
+package day8;
+
+class Node{
+	String val;
+	Node left;
+	Node right;
+	
+	Node(String val,Node left,Node right){
+		this.val =val;
+		this.left = left;
+		this.right = right;
+		
+	}
+	
+	
+}
+
+public class Answer8 {
+
+	private int count_unival_subtrees(Node root) {
+		
+		if (root == null) {
+            return 0;
+        }
+
+	}
+	
+}
